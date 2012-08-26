@@ -47,5 +47,11 @@ public class Group {
 	public void setType(String type) {
 		this.type = type;
 	}
+
+	@Override
+	public String toString() {
+		return "Group [id=" + id + ", tag=" + tag + ", type=" + type + "]";
+	}
+	
 	
 }
